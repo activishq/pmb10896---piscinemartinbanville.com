@@ -131,3 +131,7 @@ add_action( 'edited_portfolio_entries', 'save_taxonomy_custom_meta', 10, 2 );
 add_action( 'create_portfolio_entries', 'save_taxonomy_custom_meta', 10, 2 );
 
 */
+/*Ajout dun menu*/
+register_nav_menus( array(
+    'Mobile' => 'Navigation mobile',
+) );
