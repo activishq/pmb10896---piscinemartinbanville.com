@@ -72,9 +72,9 @@
 		<div class="container">
 			<div class="row-fluid">
 					<ul class="list-unstyled">
-						<li>
-							<a href="tel:4509624051" class="btn">(450) 962-4051</a>
-						</li>
+                        <li>
+                            <?php dynamic_sidebar( "Top Header Right" ); ?>
+                        </li>
 					</ul>
 			</div>
 		</div>
