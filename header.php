@@ -76,7 +76,6 @@
 							<a href="tel:4509624051" class="btn">(450) 962-4051</a>
 						</li>
 					</ul>
-                    <?php wp_nav_menu( array( 'theme_location' => 'Mobile' ) ); ?>
                     <?php
                     wp_nav_menu( array( 
                         'theme_location' => 'my-custom-menu') ); 
