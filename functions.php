@@ -132,6 +132,12 @@ add_action( 'create_portfolio_entries', 'save_taxonomy_custom_meta', 10, 2 );
 
 */
 /*Ajout dun menu*/
-register_nav_menus( array(
-    'Mobile' => 'Navigation mobile',
-) );
+function bpc_custom_new_menu() {
+  register_nav_menus(
+    array(
+      'my-custom-menu' => __( 'My Custom Menu' ),
+      'extra-menu' => __( 'Extra Menu' )
+    )
+  );
+}
+add_action( 'init', 'bpc_custom_new_menu' );

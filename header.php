@@ -77,6 +77,11 @@
 						</li>
 					</ul>
                     <?php wp_nav_menu( array( 'theme_location' => 'Mobile' ) ); ?>
+                    <?php
+                    wp_nav_menu( array( 
+                        'theme_location' => 'my-custom-menu', 
+                        'container_class' => 'custom-menu-class' ) ); 
+                    ?>
 			</div>
 		</div>
 	</div>
