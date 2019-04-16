@@ -135,8 +135,7 @@ add_action( 'create_portfolio_entries', 'save_taxonomy_custom_meta', 10, 2 );
 function bpc_custom_new_menu() {
   register_nav_menus(
     array(
-      'my-custom-menu' => __( 'My Custom Menu' ),
-      'extra-menu' => __( 'Extra Menu' )
+      'my-custom-menu' => __( 'My Custom Menu' )
     )
   );
 }
