@@ -539,6 +539,9 @@ body.home ul[data-icon="moon-checkmark"] > li.simple {
 .promotion .btn-bt.default:hover span{
 	left:0;
 }
+.btn-bt.default{
+	padding: 10px 32px;
+}
 .btn-bt.default.blue {
     background: #017cba;
     border: #017cba 2px solid;
