@@ -548,7 +548,7 @@ body.home ul[data-icon="moon-checkmark"] > li.simple {
     color: #fff;
 }
 .btn-bt.default.blue:hover {
-	background: #fff;
+	background: transparent;
     border: #017cba 2px solid;
     color: #017cba;
 }
