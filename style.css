@@ -540,12 +540,17 @@ body.home ul[data-icon="moon-checkmark"] > li.simple {
 	left:0;
 }
 .btn-bt.default{
-	padding: 10px 32px;
+	padding: 10px 28px;
 }
 .btn-bt.default.blue {
     background: #017cba;
     border: #017cba 2px solid;
     color: #fff;
+}
+.btn-bt.default.blue:hover {
+	background: #fff;
+    border: #017cba 2px solid;
+    color: #017cba;
 }
 .page_parents.pull-right{
 	/*display:none;*/
