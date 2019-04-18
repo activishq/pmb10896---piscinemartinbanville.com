@@ -890,7 +890,7 @@ nav#portfolio-filter ul li a:hover{
 .share-project a.btn-bt.default span {
 color: white!important;
 }
-
+/*Menu*/
 .menu-financing {
     text-transform: uppercase;
     line-height: 20px;
@@ -899,4 +899,45 @@ color: white!important;
     color: #222;
     font-size: 13px;
     margin-left: 25px;
+}
+/*Menu mobile*/
+.mobile__topbar .megamenu_container {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.mobile__topbar .megamenu_container ul {
+    padding-left:0;
+}
+.megamenu_container ul li {
+.mobile__topbar     list-style: none;
+    display: inline-block;
+    font-size: 13px;
+}
+.mobile__topbar .megamenu_container ul li:last-child:before {
+    content: "|";
+    padding-left:5px;
+    padding-right:10px;
+}
+.mobile__topbar .megamenu_container ul li:first-child {
+    display: block;
+    font-size: 16px;
+}
+
+/*slider accueil mobile*/
+@media screen and (max-width: 1024px) {
+.tp-caption.tp-fade.start img, .tp-caption.medium_text.tp-fade.tp-resizeme.start a {
+margin-left: 50px!important;
+}
+}
+
+@media screen and (max-width: 480px) {
+.tp-caption.tp-fade.start img, .tp-caption.medium_text.tp-fade.tp-resizeme.start a {
+margin-left: 30px!important;
+}
+.mobile__topbar .megamenu_container ul li:last-child:before {
+    content: "";
+    padding-left:0;
+    padding-right:0;
+}
 }
