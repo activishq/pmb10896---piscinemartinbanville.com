@@ -277,7 +277,7 @@
                             <div class="header_tools">
 
 								<a href="https://www.facebook.com/piscinemartinbanville" target="_blank" class="facebook_url"></a>
-                                <a href="https://www.instagram.com/explore/locations/1592747051051804/les-piscines-martin-banville/?hl=fr" target="_blank" class="facebook_url"></a>
+                                <a href="https://www.instagram.com/explore/locations/1592747051051804/les-piscines-martin-banville/?hl=fr" target="_blank" class="instagram_url"></a>
 
                                 <div class="vert_mid hidden">
 
